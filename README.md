@@ -1,5 +1,11 @@
 # tilelive.js
 
+**IMPORTANT:** this fork has the last version of tilelive.js that works with [Tilemill](https://github.com/mapbox/tilemill), which is 4.5.3. Some simple fixes have been introduced to add compatibility with node v4.
+
+The original readme is below.
+
+---
+
 tilelive.js is an interface for tilestore modules for [node.js](http://nodejs.org/). It defines an [API](https://github.com/mapbox/tilelive.js/blob/master/API.md) to interact with implementations for a particular tile store.
 
 [![Build Status](https://secure.travis-ci.org/mapbox/tilelive.js.png)](http://travis-ci.org/mapbox/tilelive.js)
