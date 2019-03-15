@@ -1,12 +1,12 @@
 var assert = require('assert');
 var tilelive = require('../');
-tilelive.protocols['mbtiles:'] = require('mbtiles');
-tilelive.protocols['tilejson:'] = require('tilejson');
+tilelive.protocols['mbtiles:'] = require('@mapbox/mbtiles');
+tilelive.protocols['tilejson:'] = require('@mapbox/tilejson');
 
 var data = [
     {
         name: 'MapQuest Open',
-        scheme: 'tms',
+        scheme: 'xyz',
         tiles: [ 'http://otile1.mqcdn.com/tiles/1.0.0/osm/${z}/${x}/${y}.jpg' ],
         minzoom: 0,
         maxzoom: 18,

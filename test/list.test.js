@@ -1,7 +1,7 @@
 var assert = require('assert');
 var tilelive = require('../');
-tilelive.protocols['mbtiles:'] = require('mbtiles');
-tilelive.protocols['tilejson:'] = require('tilejson');
+tilelive.protocols['mbtiles:'] = require('@mapbox/mbtiles');
+tilelive.protocols['tilejson:'] = require('@mapbox/tilejson');
 
 describe('listing', function() {
     it('should list all available tile sources', function(done) {

@@ -1,6 +1,6 @@
 // Tile server using the node web framework Express (http://expressjs.com).
 var app = require('express').createServer(),
-    mapnik = require('tilelive-mapnik'),
+    mapnik = require('@mapbox/tilelive-mapnik'),
     tilelive = new (require('tilelive').Server)(mapnik);
 
 app.get('/:z/:x/:y.*', function(req, res) {

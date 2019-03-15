@@ -1,21 +1,28 @@
 {
-    "name"          : "tilelive",
-    "version"       : "4.5.3",
-    "main"          : "./lib/tilelive.js",
-    "description"   : "Frontend for various tile backends, mapnik and mbtiles",
-    "url"           : "http://github.com/mapbox/tilelive.js",
-    "keywords"      : ["map", "server", "mapnik", "tms"],
-    "licenses"      : [{
-        "type": "BSD"
-    }],
+    "name": "tilelive",
+    "version": "5.14.0",
+    "main": "./lib/tilelive.js",
+    "description": "Frontend for various tile backends, mapnik and mbtiles",
+    "url": "http://github.com/tilemill-project/tilelive.js",
+    "keywords": [
+        "map",
+        "server",
+        "mapnik",
+        "tms"
+    ],
+    "licenses": [
+        {
+            "type": "BSD"
+        }
+    ],
     "repository": {
         "type": "git",
-        "url": "http://github.com/mapbox/tilelive.js.git"
+        "url": "http://github.com/tilemill-project/tilelive.js.git"
     },
     "author": {
-      "name": "MapBox",
-      "url": "http://mapbox.com/",
-      "email": "info@mapbox.com"
+        "name": "MapBox",
+        "url": "http://mapbox.com/",
+        "email": "info@mapbox.com"
     },
     "contributors": [
         "Tom MacWright <tmcw>",
@@ -25,13 +32,14 @@
         "Konstantin Käfer <kkaefer>"
     ],
     "dependencies": {
-        "optimist": "~0.6.0",
-        "sphericalmercator": "~1.0.1"
+        "optimist": "0.6.1",
+        "@mapbox/sphericalmercator": "1.1.0"
     },
     "devDependencies": {
-        "mbtiles": "~0.2.8",
-        "tilejson": "~0.6.0",
-        "tilelive-mapnik": "~0.6.2"
+        "@mapbox/mbtiles": "0.10.0",
+        "@mapbox/tilejson": "1.1.0",
+        "@mapbox/tilelive-mapnik": "1.0.0",
+        "mocha": "*"
     },
     "bin": {
         "tilelive-copy": "./bin/copy"
