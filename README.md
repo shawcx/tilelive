@@ -1,6 +1,7 @@
 # tilelive.js
 
-**IMPORTANT:** this fork has the last version of tilelive.js that works with [Tilemill](https://github.com/mapbox/tilemill), which is 4.5.3. Some simple fixes have been introduced to add compatibility with node v4.
+**IMPORTANT:** This was forked from an older mapbox version of tilelive that still worked with tilemill.
+It has also had minor enhnacements had had all of its dependent modules upgraded.
 
 The original readme is below.
 

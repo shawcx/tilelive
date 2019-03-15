@@ -1,3 +1,15 @@
+## 5.14.0
+
+* Forked this into the tilemill-project from florianf's version.
+* Upgraded all dependencies, fixed some test code errors that resulted from that, made the registration of tilelive protocols more robust to account for the different naming conventions and scoping used by the protocol package names.
+
+## 5.13.0
+
+* Don't know what all was done between 4.5.3 and when pauloviera forked from the mapbox version. See [https://github.com/mapbox/tilelive](https://github.com/mapbox/tilelive) for that history.
+* pauloviera forked from mapbox and then made one commit to add dummy argument to the setters.
+* florianf forked from pauloviera and then made one commit with fixes for Node 8.
+* This is the version that was being used in tilemill 0.10.x and 1.0.1.
+
 ## 4.5.3
 
 * Add tilelive.auto method from tilelive-copy for detection and autoloading of

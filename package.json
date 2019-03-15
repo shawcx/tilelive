@@ -1,6 +1,6 @@
 {
     "name": "tilelive",
-    "version": "4.5.3",
+    "version": "5.14.0",
     "main": "./lib/tilelive.js",
     "description": "Frontend for various tile backends, mapnik and mbtiles",
     "url": "http://github.com/tilemill-project/tilelive.js",
