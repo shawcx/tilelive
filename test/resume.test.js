@@ -4,8 +4,8 @@ var CopyTask = require('../lib/copytask');
 var Scheme = require('../lib/scheme');
 
 var tilelive = require('..');
-tilelive.protocols['mbtiles:'] = require('mbtiles');
-tilelive.protocols['tilejson:'] = require('tilejson');
+tilelive.protocols['mbtiles:'] = require('@mapbox/mbtiles');
+tilelive.protocols['tilejson:'] = require('@mapbox/tilejson');
 
 describe('resume', function() {
     var job;
